@@ -7,45 +7,132 @@
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <!-- Navbar Start -->
     <nav class="navbar ">
         <div class="brand-title"><img src="image/LOGO.png" width="80px"></div>
+        <a href="" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
         <div class="navbar-links">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search" width="20px"></i></a>
             <a href="login.html" id="logout"><i data-feather="log-out" width="20px"></i></a>
-            <a href="" id="menu"><i data-feather="menu"></i>
-            </a>
         </div>
     </nav>
-<section class="hero" id="home">
-    <main class="content">
-        <h1>Welcome to Coffee Shop</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-        <a href="#" class="cta">Di Order Sekarang!!</a>
-    </main>
-</section>
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Welcome to Coffee Shop</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <a href="#" class="cta">Di Order Sekarang!!</a>
+        </main>
+    </section>
+    <!-- Navbar End -->
+    <!-- About Start -->
+    <section id="about" class="about">
+        <h2>Tentang Kami<h2>
+                <div class="row">
+                    <div class="about-img">
+                        <img src="image/kafe.jpg" alt="Tentang Kami">
+                    </div>
+                    <div class="content">
+                        <h3>MAI ALES KAFEA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perferendis voluptates voluptate
+                            perspiciatis magni ab, excepturi vel! Quia soluta architecto eos, consequuntur ipsa nobis
+                            eligendi?</p>
 
+                    </div>
+                </div>
+    </section>
+    <!-- About End -->
+    <!-- Menu Start -->
+    <section id="menu" class="menu">
+        <h2>Menu Kami</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias maiores cum soluta. Quia quos exercitationem
+            architecto repellat, dolorem quibusdam distinctio pariatur nobis possimus doloremque adipisci quasi, dolorum
+            atque ex impedit?</p>
+        <div class="row">
+            <div class="menu-card">
+                <img src="image/5376.jpg" width="200px">
+                <h3 class="menu-card-title">Espresso</h3>
+                <p class="menu-card-price">IDR 15k</p>
+                <button type="button" class="btn btn-light">PESAN</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/18519.jpg" width="200px">
+                <h3 class="menu-card-title">Latte</h3>
+                <p class="menu-card-price">IDR 20k</p>
+                <button type="button" class="btn btn-light">PESAN</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/cappucino.jpg" width="240px">
+                <h3 class="menu-card-title">Cappucino</h3>
+                <p class="menu-card-price">IDR 20k</p>
+                <button type="button" class="btn btn-light">PESAN</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/kopsus.jpg" width="200px">
+                <h3 class="menu-card-title">Kopi Susu</h3>
+                <p class="menu-card-price">IDR 20k</p>
+                <button type="button" class="btn btn-light">PESAN</button>
+            </div>
+        </div>
+    </section>
+    <!-- Menu End -->
+    <!-- Contact Start -->
+    <section class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae!</p>
+        <div class="row">
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no_hp">
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+        </div>
+        </form>
+    </section>
+    <!-- Contact End -->
+    <!-- Footer start-->
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+        <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div class="credit">
+            <p>Create by <a href="">kairi</a>.&copy; 2024.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="js/script.js"></script>
-    <script>feather.replace();</script>
+        </div>
+        </div>
+    </footer>
+    <!-- Footer end-->
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
